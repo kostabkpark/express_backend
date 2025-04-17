@@ -1,0 +1,10 @@
+get http://localhost:3000
+
+###
+get http://localhost:3000/info
+
+###
+get http://localhost:3000/param/10
+
+###
+get http://localhost:3000/query?id=1&name="홍길동"
