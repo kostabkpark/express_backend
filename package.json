@@ -4,17 +4,18 @@
   "description": "backend for react ",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "type" : "module",
+  "type": "module",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "json": "^11.0.0",
+    "mysql": "^2.18.1",
     "nodemon": "^3.1.9"
   }
 }
